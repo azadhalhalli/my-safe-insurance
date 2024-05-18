@@ -15,7 +15,8 @@ st.set_page_config(
 )
 
 # Model yolunu tanımlayın
-model = joblib.load("C:/Users/halha/OneDrive/Belgeler/GitHub/proje3/gb_modelnew.pkl")
+model = joblib.load("C:\\Users\\halha\\OneDrive\\Belgeler\\GitHub\\proje3\\gb_modelnew.pkl")
+
 
 # Model dosyasının mevcut olup olmadığını kontrol edin
 if not os.path.exists(model_path):
